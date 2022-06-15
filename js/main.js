@@ -147,3 +147,15 @@ console.log (socios)
 
 
 console.log (socios [prompt ("Ingrese el número de socio")].nombre )
+
+
+
+// FILTER
+
+const voley = socios.filter ( (el) => {
+    return el.deporte === "voley"
+})
+
+console.log (voley)
+
+
