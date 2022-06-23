@@ -146,16 +146,16 @@ socios.push (socio7)
 console.log (socios)
 
 
-console.log (socios [prompt ("Ingrese el número de socio")].nombre )
+
+// FILTERconst voley = socios.filter ( (el) => {return el.deporte === "voley"}) console.log (voley)
 
 
+// EVENTOS
 
-// FILTER
+const btnperfil = document.querySelector("#botonperfil")
 
-const voley = socios.filter ( (el) => {
-    return el.deporte === "voley"
-})
+const clickear =  () => {
+    console.log ("boton clickeado")
+}
 
-console.log (voley)
-
-
+btnperfil.addEventListener ("click" , clickear )
