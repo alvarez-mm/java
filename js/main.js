@@ -159,3 +159,40 @@ const clickear =  () => {
 }
 
 btnperfil.addEventListener ("click" , clickear )
+
+
+// MOUSE
+
+const mouse = document.createElement ("img")
+mouse.src ="clickmouse.png"
+mouse.className = "mouse"
+document.body.appendChild (mouse)
+
+
+window.addEventListener ("mousemove" , ({x , y})=>{
+    console.log (x ,y )
+    moverMouse (x , y)
+})
+
+
+function moverMouse (newX , newY) {
+
+    const {x , y} = mouse.getBoundingClientRect ()
+
+    let rotate = 0
+
+    if (newY >= y) {
+        if (newX >= x) {
+            rotate = 90
+        } else {
+            rotate = 180
+        }
+    } else if (newX <=x) {
+        rotate = 270
+    }
+
+    mouse.style.transform = 'rotate(${rotate}deg)'
+    mouse.style.top = (newY) + 'px'
+    mouse.style.left = (newX) + 'px'
+}
+

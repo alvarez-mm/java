@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- <script src="js/main.js"></script> -->
     <title>PAGINA DEL CLUB DEPORTIVO VILLA NUEVA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 
@@ -37,7 +38,24 @@
     </nav>
 
     <main>
-        <h2>Formulario</h2>
+
+        <!-- F O R M U L A R I O -->
+        <form>
+            <div class="form-group"> 
+                <input type="text" class="form-control" id="inputNombre" placeholder="Ingresa tu nombre y apellido">
+        
+                <input type="text" class="form-control" id="inputCelular" placeholder="Ingresa tu número de celular">
+
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Ingresa tu e-mail">
+                <small id="emailHelp" class="form-text text-muted">Nunca mostraremos tu mail a nadie.</small>
+        
+                <textarea class="form-control" id="inputMensaje" rows="3" placeholder="Ingresa tu mensaje"></textarea>
+            </div>
+
+            <button type="submit" id="botonEnviar" class="btn btn-primary">Enviar</button>
+        
+        </form>
+    
     </main>
 
     <footer>
