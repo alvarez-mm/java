@@ -15,6 +15,15 @@ formularioContacto.addEventListener ("submit" , (event) => {
     console.log (inputCelular.value)
     console.log (inputEmail.value)
     console.log (inputMensaje.value)
+
+    const mensajeContacto = {
+        nombre: inputNombre.value,
+        celular: inputCelular.value,
+        email: inputEmail.value,
+        mensaje: inputMensaje.value
+    }
+
+    console.log (mensajeContacto)
 })
 
 window.addEventListener ("keydown" , (e) => {
@@ -22,4 +31,6 @@ window.addEventListener ("keydown" , (e) => {
         e.preventDefault ()
     }
 })
+
+
 
