@@ -17,3 +17,9 @@ formularioContacto.addEventListener ("submit" , (event) => {
     console.log (inputMensaje.value)
 })
 
+window.addEventListener ("keydown" , (e) => {
+    if (e.key === "Tab") {
+        e.preventDefault ()
+    }
+})
+
