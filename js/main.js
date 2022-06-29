@@ -1,35 +1,35 @@
 
 // Para ingresar a la pagina como administrativo
 
-let password = prompt ("Ingrese la contraseña")
+//let password = prompt ("Ingrese la contraseña")
 
-while (password !== "claveadmin") {
+//while (password !== "claveadmin") {
 
-    alert ("Contraseña incorrecta")
+  //  alert ("Contraseña incorrecta")
 
-    password = prompt ("Ingrese la contraseña")
+   // password = prompt ("Ingrese la contraseña")
 
-}
+//}
 
-alert ("Usted ha ingresado como administrativo")
+//alert ("Usted ha ingresado como administrativo")
 
 
 
 // Para consultar los precios de los tipos de socios
 
-const tipoSocio = prompt ("Ingrese el tipo de socio para consultar el valor de la cuota mensual")
+//const tipoSocio = prompt ("Ingrese el tipo de socio para consultar el valor de la cuota mensual")
 
-switch (tipoSocio) {
-    case "deportivo":
-        alert ("La cuota tiene un valor mensual de $1.500 por persona")
-        break
-    case "activo":
-        alert ("La cuota tiene un valor mensual de $3.000 por persona")
-        break
-    case "familiar":
-        alert ("La cuota tiene un valor mensual de $1.200 por persona")
-        break
-}
+//switch (tipoSocio) {
+//    case "deportivo":
+//        alert ("La cuota tiene un valor mensual de $1.500 por persona")
+//        break
+//    case "activo":
+//        alert ("La cuota tiene un valor mensual de $3.000 por persona")
+//        break
+//    case "familiar":
+//        alert ("La cuota tiene un valor mensual de $1.200 por persona")
+//        break
+//}
 
 
 

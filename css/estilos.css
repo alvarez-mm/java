@@ -5,7 +5,11 @@
   
 /* E S T I L O S     H E A D E R */
 header {
-    background-image: linear-gradient(to right, green , white , blue); }
+    background-image: linear-gradient(to right, #5EBB72 ,#5EBB72 , white,  white , #124C62 , #124C62); }
+
+#logoEscudo {
+    display: block;
+    margin-left: 42%}
 
 h1 {
     font-size: 60px;
