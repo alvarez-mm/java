@@ -1,10 +1,20 @@
 // OBJETOS Socios
 
+const socio0 = {
+    nombre: "Administrativo",
+    numero: 0,
+    tipo: "adminitrativo",
+    deporte: "administrativo",
+    email: "admin@gmail.com",
+    contraseña: "claveadmin"
+}
+
 const socio1 = {
     nombre: "Rocio Bonetto",
     numero: 1,
     tipo: "deportivo",
-    deporte: "voley" 
+    deporte: "voley",
+    contraseña: "pipa"
 }
 
 console.log (socio1)
@@ -14,7 +24,8 @@ const socio2 = {
     nombre: "Karim Fares",
     numero: 2,
     tipo: "deportivo",
-    deporte: "futbol" 
+    deporte: "futbol",
+    contraseña: "reino" 
 }
 
 console.log (socio2)
@@ -77,3 +88,9 @@ socios.push (socio7)
 
 console.log (socios)
 
+
+// STORAGE
+
+const socio8 = localStorage.getItem ("nuevoSocio")
+
+console.log (socio8)

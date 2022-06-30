@@ -6,7 +6,7 @@ const botonGuardarRegistro = document.querySelector ("#botonGuardarRegistro")
 
 formularioRegistrarse.addEventListener ("submit" , (event) => {
     event.preventDefault ()
-    
+
     const nuevoRegistro = {
         nombre: inputRegistrarNombre.value,
         email: inputRegistrarEmail.value,
@@ -15,4 +15,7 @@ formularioRegistrarse.addEventListener ("submit" , (event) => {
 
     console.log (nuevoRegistro)
 
+    localStorage.setItem ("nuevoSocio" , nuevoRegistro)
+
 })
+
