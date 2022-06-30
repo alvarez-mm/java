@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
-    <!-- <script src="js/main.js"></script> -->
     <title>PAGINA DEL CLUB DEPORTIVO VILLA NUEVA</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
@@ -41,14 +40,25 @@
     </nav>
 
     <main>
-        <h1>Instructivos</h1>
-        <h2>Cómo usar la pagina</h2>
-        <h2>Cómo ingresar a mi perfil</h2>
+
+        <!-- F O R M U L A R I O    P A R A    R E G I S T R A R S E -->
+       
+        <form id="formularioRegistrarse">
+            <div class="form-group"> 
+                <input type="text" class="form-control my-2" id="inputRegistrarNombre" placeholder="Ingresa tu nombre y apellido">
+                <input type="text" class="form-control my-2" id="inputRegistrarEmail" placeholder="Ingresa tu e-mail">
+                <input type="password" class="form-control my-2" id="inputRegistrarContraseña" placeholder="Ingresa una contraseña">
+            </div>
+        
+            <button type="submit" id="botonGuardarRegistro" class="btn btn-primary">Guardar</button>            
+        </form>
+
     </main>
 
     <footer>
         <h3>Sede Central - Bandera de Los Andes 1345, Villa Nueva, Mendoza.</h3>
     </footer>
 
+    <script  src="../js/registrarse.js"></script>
 </body>
 </html>
