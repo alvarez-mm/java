@@ -21,3 +21,15 @@ botonMostrar.addEventListener ("click" , (e) => {
         inputContraseña.type = "password"
     }
 })
+
+
+//STORAGE
+const usuario = inputSocio.value
+const password = inputContraseña.value
+
+localStorage.setItem ("user" , usuario)
+localStorage.setItem ("password" , password)
+
+
+const usuarioLS = localStorage.getItem ("user")
+console.log (usuarioLS)

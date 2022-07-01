@@ -14,6 +14,7 @@ const socio1 = {
     numero: 1,
     tipo: "deportivo",
     deporte: "voley",
+    email: "tuti@gmail.com",
     contraseña: "pipa"
 }
 
@@ -25,6 +26,7 @@ const socio2 = {
     numero: 2,
     tipo: "deportivo",
     deporte: "futbol",
+    email: "kf@gmail.com",
     contraseña: "reino" 
 }
 
@@ -35,7 +37,9 @@ const socio3 = {
     nombre: "Emiliano Mera",
     numero: 3,
     tipo: "familiar",
-    deporte: "basquet" 
+    deporte: "basquet",
+    email: "emimera@gmail.com",
+    contraseña: "pelota"
 }
 
 console.log (socio3)
@@ -45,7 +49,9 @@ const socio4 = {
     nombre: "Luciana Mera",
     numero: 4,
     tipo: "familiar",
-    deporte: "jockey" 
+    deporte: "jockey",
+    email: "lume@gmail.com",
+    contraseña: "frutilla"
 }
 
 console.log (socio4)
@@ -55,7 +61,9 @@ const socio5 = {
     nombre: "Ignacio Mera",
     numero: 5,
     tipo: "familiar",
-    deporte: "natacion" 
+    deporte: "natacion",
+    email: "nacho@gmail.com",
+    contraseña: "araña"
 }
 
 console.log (socio5)
@@ -65,7 +73,9 @@ const socio6 = {
     nombre: "Nuri Alvarez",
     numero: 6,
     tipo: "activo",
-    deporte: "gimnasio" 
+    deporte: "gimnasio",
+    email: "nur@gmail.com",
+    contraseña: "doc" 
 }
 
 console.log (socio6)
@@ -80,7 +90,9 @@ const socio7 = {
     nombre: "Carolina Muñoz",
     numero: 7,
     tipo: "activo",
-    deporte: "tenis" 
+    deporte: "tenis",
+    email: "caromu@gmail.com",
+    contraseña: "amarillo" 
 }
 
 
