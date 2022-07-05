@@ -21,5 +21,8 @@ formularioRegistrarse.addEventListener ("submit" , (event) => {
 
     localStorage.setItem ("nuevoSocio" , nuevoRegistro)
 
+
+    const bienvenidoNuevo = document.querySelector ("#bienvenidoNuevo")
+    bienvenidoNuevo.innerText = "Bienvenido: ${inputRegistrarNombre}"
 })
 

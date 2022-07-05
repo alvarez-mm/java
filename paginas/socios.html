@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
-    <!-- <script src="js/main.js"></script> -->
     <title>PAGINA DEL CLUB DEPORTIVO VILLA NUEVA</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+    <script defer src="../js/socios.js"></script>
+    <script defer src="../js/registrarse.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,6 @@
     </header>
     
     <h1> CLUB DEPORTIVO VILLA NUEVA </h1>
-    <button id="botonperfil" class="btn btn-outline-primary"> <a href= "perfil.html">MI PERFIL</a></button>
 
     <nav>
         <ul>
@@ -28,23 +28,24 @@
             <li><a href="instructivos.html">Instructivos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="../deportes/futbol.html">Futbol</a></li>
-            <li><a href="../deportes/voley.html">Voley</a></li>
-            <li><a href="../deportes/basquet.html">Basquet</a></li>
-            <li><a href="../deportes/tenis.html">Tenis</a></li>
-            <li><a href="../deportes/natacion.html">Natacion</a></li>
-            <li><a href="../deportes/gimnasio.html">Gimnasio</a></li>
+            <button id="botonperfil" class="btn btn-outline-primary"> <a href= "perfil.html">MI PERFIL</a></button>
         </ul>
     </nav>
 
     <main>
         <h1>Socios</h1>
-        <h2>Ingresar como socio</h2>
+        <h2>Tipos de socios y cuota</h2>
+
+        <button id="abrirSociodeportivo" class="btn btn-primary">SOCIO DEPORTIVO</button>
        
-       
+        <div id="modalsociodeportivo" class="modal-container">
+            <div id="sociodeportivo-modal" class="sociodeportivo-modal">
+                <button id="cerrarSociodeportivo"> x </button>
+                <h4>Socio deportivo</h4>
+                <hr>
+                <p>Realiza únicamente un deporte federado y no tiene acceso a los demás servicios del club. El valor de la cuota es de $1.200</p>
+            </div>
+        </div>
 
     </main>
 
@@ -52,7 +53,6 @@
         <h3>Sede Central - Bandera de Los Andes 1345, Villa Nueva, Mendoza.</h3>
     </footer>
 
-    <script  src="../js/socios.js"></script>
-    <script  src="../js/registrarse.js"></script>
+
 </body>
 </html>

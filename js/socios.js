@@ -1,3 +1,18 @@
+// MODALES
+
+const modalsociodeportivo = document.querySelector ("#modalsociodeportivo")
+const abrirSociodeportivo = document.querySelector ("#abrirSociodeportivo")
+const cerrarSociodeportivo = document.querySelector ("#cerrarSociodeportivo")
+
+abrirSociodeportivo.addEventListener (click, () => {
+    modalsociodeportivo.classList.add ("sociodeportivo-visible")
+})
+
+cerrarSociodeportivo.addEventListener (click, () => {
+    modalsociodeportivo.classList.remove ("sociodeportivo-visible")
+})
+
+
 // OBJETOS Socios
 
 const socio0 = {

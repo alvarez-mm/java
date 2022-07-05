@@ -33,3 +33,5 @@ localStorage.setItem ("password" , password)
 
 const usuarioLS = localStorage.getItem ("user")
 console.log (usuarioLS)
+
+
