@@ -45,7 +45,6 @@ div a:hover {
 
 #botonperfil {
     padding: 1rem;
-    margin-left: 19rem;
 }
 
 
@@ -85,7 +84,7 @@ div a:hover {
 
 /* E S T I L O S    D E     I M A G E N E S */
 
-#futbol1 , #voley1 {
+#futbol1 , #voley1 , #basquet1 , #tenis1 , #natacion1 , #gimnasio1{
     padding: 5px;
 }
 
@@ -93,7 +92,11 @@ div a:hover {
 /* E S T I L O S    D E     B O T O N E S */
 
 #abrirCategoriasFutbol , #abrirHorariosFutbol , #abrirProgramacionFutbol , 
-#abrirCategoriasVoley , #abrirHorariosVoley , #abrirProgramacionVoley   {
+#abrirCategoriasVoley , #abrirHorariosVoley , #abrirProgramacionVoley ,
+#abrirCategoriasBasquet , #abrirHorariosBasquet , #abrirProgramacionBasquet ,
+#abrirCategoriasTenis , #abrirHorariosTenis , #abrirProgramacionTenis,
+#abrirCategoriasNatacion , #abrirHorariosNatacion , #abrirProgramacionNatacion,
+#abrirClasesGimnasio , #abrirHorariosGimnasio      {
     padding: 1rem;
 }
 
