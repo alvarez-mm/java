@@ -4,13 +4,42 @@ const modalsociodeportivo = document.querySelector ("#modalsociodeportivo")
 const abrirSociodeportivo = document.querySelector ("#abrirSociodeportivo")
 const cerrarSociodeportivo = document.querySelector ("#cerrarSociodeportivo")
 
-abrirSociodeportivo.addEventListener (click, () => {
+abrirSociodeportivo.addEventListener ('click', () => {
     modalsociodeportivo.classList.add ("sociodeportivo-visible")
 })
 
-cerrarSociodeportivo.addEventListener (click, () => {
+cerrarSociodeportivo.addEventListener ('click', () => {
     modalsociodeportivo.classList.remove ("sociodeportivo-visible")
 })
+
+
+const modalsocioactivo = document.querySelector ("#modalsocioactivo")
+const abrirSocioactivo = document.querySelector ("#abrirSocioactivo")
+const cerrarSocioactivo = document.querySelector ("#cerrarSocioactivo")
+
+abrirSocioactivo.addEventListener ('click', () => {
+    modalsocioactivo.classList.add ("socioactivo-visible")
+})
+
+cerrarSocioactivo.addEventListener ('click', () => {
+    modalsocioactivo.classList.remove ("socioactivo-visible")
+})
+
+
+const modalsociofamiliar = document.querySelector ("#modalsociofamiliar")
+const abrirSociofamiliar = document.querySelector ("#abrirSociofamiliar")
+const cerrarSociofamiliar = document.querySelector ("#cerrarSociofamiliar")
+
+abrirSociofamiliar.addEventListener ('click', () => {
+    modalsociofamiliar.classList.add ("sociofamiliar-visible")
+})
+
+cerrarSociofamiliar.addEventListener ('click', () => {
+    modalsociofamiliar.classList.remove ("sociofamiliar-visible")
+})
+
+
+
 
 
 // OBJETOS Socios
