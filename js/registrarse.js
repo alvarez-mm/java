@@ -21,8 +21,15 @@ formularioRegistrarse.addEventListener ("submit" , (event) => {
 
     localStorage.setItem ("nuevoSocio" , nuevoRegistro)
 
+})
 
-    const bienvenidoNuevo = document.querySelector ("#bienvenidoNuevo")
-    bienvenidoNuevo.innerText = "Bienvenido: ${inputRegistrarNombre}"
+botonGuardarRegistro.addEventListener ('click' , () => {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Ustes se registró correctamente',
+        showConfirmButton: false,
+        timer: 1500
+      })
 })
 

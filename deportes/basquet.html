@@ -8,6 +8,7 @@
     <title>PAGINA DEL CLUB DEPORTIVO VILLA NUEVA</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+    <script defer src="../js/deportes.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,43 @@
         <button id="abrirCategoriasBasquet" class="btn btn-primary">CATEGORIAS</button>
         <button id="abrirHorariosBasquet" class="btn btn-primary">HORARIOS</button>
         <button id="abrirProgramacionBasquet" class="btn btn-primary">PROGRAMACION</button>
-    
+       
+        <div id="modalCategoriasBasquet" class="modal-categoriasbasquet">
+            <div id="categoriasbasquet-modal" class="categoriasbasquet-modal">
+                <button id="cerrarCategoriasBasquet"> x </button>
+                <h4>CATEGORIAS</h4>
+                <hr>
+                <p>Mini: hasta los 7 años de edad</p>
+                <p>Menores: desde los 8 años hasta los 12 años de edad</p>
+                <p>Cadetes: desde los 13 años hasta los 18 años de edad </p>
+                <p>Mayores: desde los 19 años de edad en adelante</p>
+            </div>
+        </div>
+
+        <div id="modalHorariosBasquet" class="modal-horariosbasquet">
+            <div id="horariosbasquet-modal" class="horariosbasquet-modal">
+                <button id="cerrarHorariosBasquet"> x </button>
+                <h4>HORARIOS</h4>
+                <hr>
+                <p>Mini: Lunes y Miercoles de 17hs a 18hs</p>
+                <p>Menores: Martes y Jueves de 18hs a 20hs</p>
+                <p>Cadetes: Martes y Jueves de 20hs a 22hs </p>
+                <p>Mayores: Lunes, Miercoles y Viernes de 20hs a 22hs</p>
+            </div>
+        </div>
+
+        <div id="modalProgramacionBasquet" class="modal-programacionbasquet">
+            <div id="programacionbasquet-modal" class="programacionbasquet-modal">
+                <button id="cerrarProgramacionBasquet"> x </button>
+                <h4>PROXIMA FECHA</h4>
+                <hr>
+                <p>Mini: Encuentro Sabado 9 de julio a las 10hs </p>
+                <p>Menores: Encuentro Domingo 10 de julio a las 9hs</p>
+                <p>Cadetes: Partido contra Talleres Martes 12 de julio a las 20hs </p>
+                <p>Mayores: Partido contra Talleres Viernes 15 de julio a las 20hs</p>
+            </div>
+        </div>
+
     </main>
 
     <footer>
