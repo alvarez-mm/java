@@ -104,7 +104,7 @@ div a:hover {
 /* E S T I L O S    S H O P P I N G */
 
 #contenedor-productos {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 60px auto;
     display: flex;
     justify-content: space-between;
