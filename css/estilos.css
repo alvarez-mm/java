@@ -103,7 +103,13 @@ div a:hover {
 
 /* E S T I L O S    S H O P P I N G */
 
-
+#contenedor-productos {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 /* F O O T E R */
