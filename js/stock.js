@@ -20,3 +20,18 @@ fetch('../stock.json')
     })
 
 })
+
+
+fetch('../stock.json')
+    .then((resp) => resp.json())
+    .then((data) => {
+        const stockProductos = data
+
+const agregarAlCarrito = (id) => {
+    const item = stockProductos.find ((prod) => prod.id === id)
+    console.log(item)
+}
+
+agregarAlCarrito(2)
+
+})
