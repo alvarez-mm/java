@@ -1,5 +1,6 @@
-const productosContainer = document.querySelector ('#contenedor-productos')
 
+const productosContainer = document.querySelector ('#contenedor-productos')
+const carrito = []
 
 fetch('../stock.json')
     .then((resp) => resp.json())
@@ -13,7 +14,7 @@ fetch('../stock.json')
                             <h3>${item.nombre}</h3>
                             <p>Talle: ${item.talle}</p>
                             <p class = 'precioProducto'>Precio: $${item.precio}</p>
-                            <button class = 'boton-agregar'>Agregar <i class= 'fas fa-shopping-cart'></i></button>
+                            <button onclick = "agregarAlCarrito(${item.id})" class = 'boton-agregar'>Agregar <i class= 'fas fa-shopping-cart'></i></button>
                             `
         
             productosContainer.append(div)
@@ -25,13 +26,11 @@ fetch('../stock.json')
 fetch('../stock.json')
     .then((resp) => resp.json())
     .then((data) => {
-        const stockProductos = data
 
 const agregarAlCarrito = (id) => {
-    const item = stockProductos.find ((prod) => prod.id === id)
-    console.log(item)
+    const item = data.find ((prod) => prod.id === id)
+    carrito.push (item)
+    console.log(carrito)
 }
-
-agregarAlCarrito(2)
 
 })

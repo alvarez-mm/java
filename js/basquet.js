@@ -1,4 +1,5 @@
 const abrirHorariosBasquet = document.querySelector ("#abrirHorariosBasquet")
+const abrirCategoriasBasquet = document.querySelector ("#abrirCategoriasBasquet")
 
 abrirHorariosBasquet.addEventListener ('click' , () => {
     Swal.fire({
@@ -12,6 +13,16 @@ abrirHorariosBasquet.addEventListener ('click' , () => {
 })
 
 
+abrirCategoriasBasquet.addEventListener ('click' , () => {
+    Swal.fire({
+        title: 'Categorías',
+        text: 'Basquet masculino',
+        imageUrl: '../imagenes/categorias.jpeg',
+        imageWidth: 600,
+        imageHeight: 600,
+        imageAlt: 'Custom image',
+    })
+})
 
 
 
